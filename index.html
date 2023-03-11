@@ -5,32 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.41/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World clock - Ogochukwu Ezeani</title>
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
       <select>
-        <option value="choose a city..">Choose a city</option>
+        <option value="choose a city..">Choose a city...</option>
         <option value="">Gothenburg</option>
-        <option value="">Lagos</option>
+        <option value="">Abuja</option>
         <option value="">Dubai</option>
         <option value="">Seoul</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="molndal">
         <div>
           <h2>Molndal 🇸🇪</h2>
-          <div class="date">March 11th 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">1:40:20 <small>PM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="lagos">
         <div>
-          <h2>Paris 🇫🇷</h2>
-          <div class="date">March 11th 2023</div>
+          <h2>Lagos 🇳🇬</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">1:40:20 <small>PM</small></div>
+        <div class="time"></div>
       </div>
     </div>
     <footer>
@@ -39,8 +41,6 @@
         >open source on github</a
       >
     </footer>
-    <script>
-      src = "javascript/index.js";
-    </script>
+    <script src="javascript/index.js"></script>
   </body>
 </html>

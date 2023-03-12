@@ -12,27 +12,28 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
-        <option value="choose a city..">Choose a city...</option>
-        <option value="">Gothenburg</option>
-        <option value="">Abuja</option>
-        <option value="">Dubai</option>
-        <option value="">Seoul</option>
+      <select id="location">
+        <option value="">Choose a city...</option>
+        <option value="Europe/Stockholm">Stockholm</option>
+        <option value="Africa/Lagos">Lagos</option>
+        <option value="Asia/Dubai">Dubai</option>
+        <option value="Australia/Canberra">Canberra</option>
       </select>
-
-      <div class="city" id="molndal">
-        <div>
-          <h2>Molndal 🇸🇪</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="molndal">
+          <div>
+            <h2>Molndal 🇸🇪</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
-      <div class="city" id="lagos">
-        <div>
-          <h2>Lagos 🇳🇬</h2>
-          <div class="date"></div>
+        <div class="city" id="lagos">
+          <div>
+            <h2>Lagos 🇳🇬</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
     </div>
     <footer>
